@@ -1,0 +1,3 @@
+- Autor: Juan Parejo García
+- email: juanparejo@iescastelar.com
+- Módulos: B.B.D.D. y Programación
