@@ -1,5 +1,5 @@
-## Examen de Programación 17 de octubre. Corrección:
-# Teoria [8pto]: \
+# Examen de Programación 17 de octubre. Corrección:
+## Teoria [8pto]: 
 1.- [1pto] Elementos de un programa:
     - Instrucciones
     - Variables
@@ -34,5 +34,5 @@
 - Cerraremos el cat con el comando EOF
 - Y por último para mostrar el programa ya creado lo llamaremos con el comando java clase.java
 \
-# Práctica [2pto]: \
+## Práctica [2pto]: 
 ![Imagen:](/Programacion/examen-17Oct-Corregido/Img.png)
