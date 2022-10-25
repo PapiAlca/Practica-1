@@ -1,10 +1,10 @@
 ## Examen de Programación 17 de octubre. Corrección:
-- Teoria [8pto]: \
+# Teoria [8pto]: \
 1.- [1pto] Elementos de un programa:
-    -Instrucciones
-    -Variables
-    -Elementos de control
-    -Bucles
+    - Instrucciones
+    - Variables
+    - Elementos de control
+    - Bucles
 
 2.- [1pto] Compiladores vs Intérpretes:
     - Compiladores: tienen una preparación y optimización previa, compila 1 vez, es rápido, debe compilarse para cada plataforma, destaca su distibución de código compilado, tiene un código oculto, y existen decompiladores disponibles.
@@ -34,5 +34,5 @@
 - Cerraremos el cat con el comando EOF
 - Y por último para mostrar el programa ya creado lo llamaremos con el comando java clase.java
 \
-- Práctica [2pto]: \
+# Práctica [2pto]: \
 ![Imagen:](/Programacion/examen-17Oct-Corregido/Img.png)
