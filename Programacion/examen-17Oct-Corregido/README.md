@@ -35,4 +35,4 @@ Teoria [8pto]: \
 - Y por último para mostrar el programa ya creado lo llamaremos con el comando java clase.java
 \
 Práctica [2pto]: \
-![Imagen:](/Programacion/examen-17Oct/Img.png)
+![Imagen:](/Programacion/examen-17Oct-Corregido/Img.png)
