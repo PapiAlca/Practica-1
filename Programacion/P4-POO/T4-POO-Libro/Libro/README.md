@@ -1,6 +1,6 @@
 # Práctica 4  POO
 ## Clase Libro:
-![Imagen 1](/Libro/Libro.java) \
+![Imagen 1](~/Libro/Libro.java) \
 Esta clase la definimos como el objeto, y para ello deberemos creas sus respectivas variables, incluyendo la variable importada scanner, sus dos constructores, y sus getters y setters. \
 Después Crearemos el los métodos prestamo(), devolucion() y toString() para utilizarlos en la clase main. 
 ## Clase ProbarLibro:
