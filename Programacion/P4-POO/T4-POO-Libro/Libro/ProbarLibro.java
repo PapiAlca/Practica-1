@@ -6,7 +6,7 @@ public class ProbarLibro {
         Libro n1 = new Libro();
         Libro n2 = new Libro("El Quijote", "Miguel de Cervantes", 5, 0);
 
-        n1.prestamo(1);
+        n1.prestamo(4);
         n2.prestamo(1);
 
         System.out.println(n1);
