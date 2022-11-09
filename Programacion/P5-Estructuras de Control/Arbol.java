@@ -5,18 +5,18 @@
 //Clase Objeto: Arbol.
 public class Arbol {
     //Variable:
-    char cadena;
+    String cadena;
 
     //Constructor:
-    public Arbol(char cadena) {
+    public Arbol(String cadena) {
         this.cadena = cadena;
     }
 
     //Getters y Setters:
-    public char getCadena() {
+    public String getCadena() {
         return cadena;
     }
-    public void setCadena(char cadena) {
+    public String setCadena(String cadena) {
         this.cadena = cadena;
     }
 }
