@@ -16,7 +16,7 @@ public class Arbol {
     public String getCadena() {
         return cadena;
     }
-    public String setCadena(String cadena) {
+    public void setCadena(String cadena) {
         this.cadena = cadena;
     }
 }
