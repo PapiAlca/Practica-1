@@ -14,6 +14,13 @@ public class Nodo{
 		this.altura = altura;
 		this.hijo = hijo;
     }
+	
+	//Constructor por defecto o Constructor del primer nodo{
+		public Nodo(String valor) {
+        this.valor = valor;
+		this.altura = 1;
+		this.hijo = false;
+    }
 
     //Getters y Setters:
     public String getValor() {
