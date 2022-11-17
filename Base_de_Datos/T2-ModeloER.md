@@ -1,1 +1,1 @@
-- ![Imagen 1:](/Base_de_Datos/img/T2-ModeloER.png)
+- ![Imagen 1:](/Base_de_Datos/img/T2-ModeloER.PNG)
