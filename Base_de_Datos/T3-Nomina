@@ -1,4 +1,4 @@
-## Práctica del Tema 3 Diseño9 Físico Nomina
+## Práctica del Tema 3 Diseño Físico Nomina
 CREATE TABLE EMPRESA( 
 	CIF int(9) PRIMARY KEY,  
 	nombre VARCHAR(20),  
