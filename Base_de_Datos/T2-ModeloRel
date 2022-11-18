@@ -1,4 +1,4 @@
-## Práctica 2 Modelo Relacional
+## Práctica del Tema 2 Modelo Relacional
 PROFESOR(DNI*, direccion, tlf, email, nss, antiguedad); \
 ALUMNO(DNI*, direccion, tlf, email); \
 Matriculacion(DNI_Alum* FK, codModulo FK);
