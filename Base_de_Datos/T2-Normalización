@@ -1,4 +1,4 @@
-# Práctica 2 Normalización
+# Práctica del Tema 2 Normalización
 Tabla DVD(CodigoDVD*, Copias, Formato, CodigoPeliculas FK); \
 \
 1ª FN: \
