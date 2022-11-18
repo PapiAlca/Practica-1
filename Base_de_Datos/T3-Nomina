@@ -1,128 +1,114 @@
 ## Práctica del Tema 3 Diseño9 Físico Nomina
-CREATE TABLE EMPRESA( \
-	CIF int(9) PRIMARY KEY,  \
-	nombre VARCHAR(20),  \
-	dir VARCHAR(40),  \
-	cp int(5),  \
-	prov VARCHAR(20),  \
-	ccc int(7),  \
-	tlfID int(5) \
-); \
+CREATE TABLE EMPRESA( 
+	CIF int(9) PRIMARY KEY,  
+	nombre VARCHAR(20),  
+	dir VARCHAR(40),  
+	cp int(5),  
+	prov VARCHAR(20),  
+	ccc int(7),  
+	tlf int(9) 
+); 
 
-CREATE TABLE TRABAJADOR(  \
-	NIF int(8) PRIMARY KEY, \
-	nombre VARCHAR(20),  \
-	ape1 VARCHAR(20),  \
-	ape2 VARCHAR(20),  \
-	tlfID int(5), \
-	nss int(12), \
-	catID int(5), \
-	cotID int(5) \
-); \
- \
-CREATE TABLE TLF( \
-	ID int(5) PRIMARY KEY, \
-	pre VARCHAR(20), \
-	tlf int(9) \
-); \
- \
-CREATE TABLE CAT( \
-	ID int(5) PRIMARY KEY, \
-	nombreCat VARCHAR(20) \
-); \
- \
-CREATE TABLE COT( \
-	ID int(5) PRIMARY KEY, \
-	grupo VARCHAR(20) \
-); \
- \
-CREATE TABLE CONTRATO( \
-	numContrato int() PRIMARY KEY AUTO_INCREMENT, \
-	fAlta DATE, \
-	fBaja DATE, \
-	codContrato int(5), \
-	NIF int(8), \
-	CIF int(9) \
-); \
- \
-CREATE TABLE TCONTRATO( \
-	codContrato int(5) PRIMARY KEY, \
-	nombre VARCHAR(20) \
-); \
- \
-CREATE TABLE Concsalario IF NOT EXISTS ( \
-	ID INT (5) PRIMARY KEY, \
-	numContrato INT () AUTO_INCREMENT, \
-	contipo INT (9) , \
-	cantidad INT (5) , \
-); \
-CREATE TABLE Conctipo IF NOT EXISTS ( \
-	contipo INT (9) , \
-	nombre VARCHAR (20) , \
-	tipo VARCHAR (20) , \
-); \
-CREATE TABLE Percepcion IF NOT EXISTS (); \
- \
-CREATE TABLE Basescot IF NOT EXISTS ( \
-	ID INT (5) PRIMARY KEY, \
-	numContrato INT () AUTO_INCREMENT, \
-	cantidad INT (5)  \
-); \
- \
-CREATE TABLE Basestipos IF NOT EXISTS ( \
-	ID INT (5) PRIMARY KEY, \
-	nombre VARCHAR (20) , \
-	porcentaje INT (3) , \
-); \ \
- \
-CREATE TABLE Tipodeduccion IF NOT EXISTS ( \
-	tipodeduccion VARCHAR(20) PRIMARY KEY , \
-	nombre VARCHAR (20), \
-	receptor VARCHAR (20), \
-); \
- \
-CREATE TABLE Deduccion IF NOT EXISTS ( \
-	ID INT (5) PRIMARY KEY, \
-	tipodeduccion VARCHAR(20) PRIMARY KEY, \
-	anho DATE, \
-	mes DATE, \
-	NIF INT (8) ,
-	numContrato INT () AUTO_INCREMENT, \
-	cantidad INT (5) \
-); \
- \
-ALTER TABLE Empresa( \
-	ADD FOREING KEY TO tlfID REFFERENCED TO TABLE TLF(ID) \ 
-); \ 
- \
-ALTER TABLE Trabajador( \
-	ADD FOREING KEY TO tlfID REFFERENCED TO TABLE TLF(ID) \
-); \
- \
-ALTER TABLE Cat(	 \
-	ADD FOREING KEY TO ID REFFERENCED TO TABLE TRABAJADOR(catID) \
-); \
- \
-ALTER TABLE Cot(	 \
-	ADD FOREING KEY TO ID REFFERENCED TO TABLE TRABAJADOR(cotID) \
-); \
- \
-ALTER TABLE Contrato( \
-	ADD FOREING KEY TO codContrato REFFERENCED TO TABLE TCONTRATO(codContrato) \
-); \
- \
-ALTER TABLE Concsalario( \
-	ADD FOREING KEY To numContrato REFFERENCED TO TABLE  Contrato (numContrato) \
-); \
- \
-ALTER TABLE Conctipo( \
-	ADD FOREING KEY To contipo REFFERENCED TO TABLE Concsalario (contipo) \
-); \
- \
-ALTER TABLE Basescot( \
-	ADD FOREING KEY To numContrato REFFERENCED TO TABLE  Contrato (numContrato) \
-); \
- \
-ALTER TABLE Deduccion( \
-	ADD FOREING KEY To tipodeduccion REFFERENCED TO TABLE Tipodeduccion (tipodeduccion) \
-); \
+CREATE TABLE TRABAJADOR(  
+	NIF int(8) PRIMARY KEY, 
+	nombre VARCHAR(20),  
+	ape1 VARCHAR(20),  
+	ape2 VARCHAR(20),  
+	tlf int(9), 
+	nss int(12), 
+	catID int(5), 
+	cotID int(5) 
+); 
+ 
+CREATE TABLE CAT( 
+	ID int(5) PRIMARY KEY, 
+	nombreCat VARCHAR(20) 
+); 
+
+CREATE TABLE COT( 
+	ID int(5) PRIMARY KEY, 
+	grupo VARCHAR(20) 
+); 
+
+CREATE TABLE CONTRATO( 
+	numContrato int() PRIMARY KEY AUTO_INCREMENT, 
+	fAlta DATE, 
+	fBaja DATE, 
+	codContrato int(5), 
+	NIF int(8), 
+	CIF int(9) 
+); 
+ 
+CREATE TABLE TCONTRATO( 
+	codContrato int(5) PRIMARY KEY, 
+	nombre VARCHAR(20) 
+); 
+ 
+CREATE TABLE CONCSALARIO( 
+	ID int (5) PRIMARY KEY, 
+	numContrato int () AUTO_INCREMENT, 
+	contipo int (9) , 
+	cantidad int (5) , 
+); 
+
+CREATE TABLE CONCTIPO( 
+	contipo INT (9), 
+	nombre VARCHAR (20), 
+	tipo VARCHAR (20), 
+); 
+
+CREATE TABLE BASESCOT(
+	ID int (5) PRIMARY KEY,
+	numContrato INT () AUTO_INCREMENT, 
+	cantidad INT (5) 
+); 
+ 
+CREATE TABLE BASESTIPOS( 
+	ID int (5) PRIMARY KEY, 
+	nombre VARCHAR (20) , 
+	porcentaje INT (3) , 
+); 
+ 
+CREATE TABLE TIPODEDUC( 
+	tipodeduccion VARCHAR(20) PRIMARY KEY, 
+	nombre VARCHAR (20), 
+	receptor VARCHAR (20), 
+); 
+ 
+CREATE TABLE DEDUCCION( 
+	ID int (5) PRIMARY KEY, 
+	tipodeduccion VARCHAR(20) PRIMARY KEY,
+	anho DATE,
+	mes DATE,
+	NIF int (8) ,
+	numContrato int() AUTO_INCREMENT, 
+	cantidad int (5) 
+); 
+
+ALTER TABLE CAT(	 
+	ADD FOREING KEY TO ID REFFERENCED TO TABLE TRABAJADOR(catID) 
+); 
+ 
+ALTER TABLE COT(	 
+	ADD FOREING KEY TO ID REFFERENCED TO TABLE TRABAJADOR(cotID) 
+); 
+ 
+ALTER TABLE CONTRATO( 
+	ADD FOREING KEY TO codContrato REFFERENCED TO TABLE TCONTRATO(codContrato) 
+); 
+
+ALTER TABLE CONCSALARIO( 
+	ADD FOREING KEY To numContrato REFFERENCED TO TABLE CONTRATO(numContrato) 
+); 
+
+ALTER TABLE CONCTIPO( 
+	ADD FOREING KEY To contipo REFFERENCED TO TABLE CONCSALARIO(contipo) 
+); 
+ 
+ALTER TABLE BASESCOT( 
+	ADD FOREING KEY To numContrato REFFERENCED TO TABLE CONTRATO(numContrato) 
+); 
+
+ALTER TABLE DEDUCCION( 
+	ADD FOREING KEY To tipodeduccion REFFERENCED TO TABLE TIPODEDUC(tipodeduccion) 
+); 
