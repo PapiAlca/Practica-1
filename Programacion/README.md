@@ -1,9 +1,13 @@
 ### Lista de tareas Programación:
+
+* P2-HolaMundo: En espera.
+* P3-JavaBasicIO: En espera.
+* P3-JavaDoc: En espera
+* P4-POO: En espera.
+* P5-Estructuras_De_Control: En espera.
+
+# DONE:
 * Practica 1: Corregida.
-* Practica 2: En espera.
-* Practica 3: En espera.
-* Practica 4: En espera.
-* Practica 5: En espera.
 
 # EXÁMENES:
 + T4-POO:
