@@ -1,5 +1,4 @@
-# Práctica 4 JavaBasicIO
-![Imagen 1](/Programacion/P3-JavaBasicIO/JavaBasic.java) \
+# Práctica 3 JavaBasicIO
 Este ejercicio pese a que se haga en la misma clase main, consta de dos apartados la parte de los usuarios, \
 y la de obtener el resto y que salga con colores por pantalla: 
 ## Introducción
