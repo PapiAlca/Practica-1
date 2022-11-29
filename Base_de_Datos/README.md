@@ -1,7 +1,7 @@
 # PRÁCTICAS
 
 ## TODO
-+ P2-Modelo ER: **envía captura en GRANDE**
++ P2-Modelo ER: En espera
 + P3-Nómina En espera
 
 
