@@ -22,5 +22,5 @@ La Clase Arbol tiene 4 variables: una de tipo String (cadena), una de tipo int (
 + Lo que le falta a esta clase es otro método para hallar la profundidad del Arbol teniendo en cuenta las alturas de los Nodos.
 
 ## Clase Main ProbarArbol
-### Introducción:
+### Explicación:
 La Clase ProbarArbol lo único que hice fue crear un Arbol porque al no ser capaz de plantear el método de hallar la profundidad no pude acabar la práctica.
