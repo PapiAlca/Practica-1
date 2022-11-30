@@ -1,9 +1,9 @@
 
 # PRÁCTICAS
-* P3-JavaBasicIO: No hay README.md explicativo. No puedo saber que has hecho o como lo has hecho.
-* P3-JavaDoc: Lo he explicado 4 veces en clase. Pregunta a algún compañero.
-* P4-POO: No hay README.md explicativo. No puedo saber que has hecho o como lo has hecho.
-* P5-Estructuras_De_Control: No hay README.md explicativo. No puedo saber que has hecho o como lo has hecho.
+* P3-JavaBasicIO: En espera.
+* P3-JavaDoc: En espera.
+* P4-POO: En espera.
+* P5-Estructuras_De_Control: En espera.
 
 ## DONE:
 * Practica 1: Corregida.
