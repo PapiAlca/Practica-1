@@ -5,4 +5,5 @@ En está práctica lo que haremos será utilizar el comando javadoc en un archiv
 + Luego usaremos el comando javadoc y despues escribiremos la ruta donde tenemos el archivo .java 
 ![Imagen 1](/Programacion/P3-JavaDoc/Javadoc.jpg)
 ## Resultado de la práctica:
-![Imagen 2](/Programacion/P3-JavaDoc/HolaMundo.html)
+![Imagen 2](/Programacion/P3-JavaDoc/JavaDoc1.jpg)
+![Imagen 3](/Programacion/P3-JavaDoc/JavaDoc2.jpg)
