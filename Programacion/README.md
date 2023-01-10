@@ -11,6 +11,9 @@
 |                                  |                              |               | P6-Evaluacion-de-Resultados    | En Espera |
 |                                  |                              |               | P6-Posicionamiento-BrazoRobot  | En Espera |
 
+## Comentarios:
+Las prácticas que se ubican en **"DONE"** y de nota tienen **"En Espera"** son las prácticas terminadas que estan en espera a ser revisadas.
+
 # EXÁMENES:
 + T4-POO:
   + **Nota: 6,75**
