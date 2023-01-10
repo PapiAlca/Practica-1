@@ -1,13 +1,15 @@
 
 # PRÁCTICAS
-* P3-JavaBasicIO: En espera.
-* P3-JavaDoc: En espera.
-* P4-POO: En espera.
-* P5-Estructuras_De_Control: En espera.
-
-## DONE:
-* Practica 1: Corregida.
-* P2-HolaMundo (5)
+|     TO DO                        |   WORKIN IN                  |     CHECK     |              DONE              |    NOTA   |
+| -------------------------------- | ---------------------------- | ------------- | ------------------------------ | --------- |
+|                                  | P7-Carta                     | P3-JavaDoc    | Práctica 1                     | Corregida |
+|                                  |                              |               | P2-HolaMundo                   |     5     |
+|                                  |                              |               |                                |           |
+|                                  |                              |               | P3-JavaBasicIO                 | En Espera |
+|                                  |                              |               | P4-POO                         | En Espera |
+|                                  |                              |               | P5-Estructuras-de-Control      | En Espera |
+|                                  |                              |               | P6-Evaluacion-de-Resultados    | En Espera |
+|                                  |                              |               | P6-Posicionamiento-BrazoRobot  | En Espera |
 
 # EXÁMENES:
 + T4-POO:
