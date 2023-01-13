@@ -21,3 +21,5 @@ Las prácticas que se ubican en **"DONE"** y de nota tienen **"En Espera"** son 
 + Examen Tema 5: 0,5
 + **Examen Global: 8**
 + **Nota Final: Suspenso por entregar tareas fuera de plazo.**
+#### 2 Evaluación:
++ Examen Tema 6 y Tema 7:
