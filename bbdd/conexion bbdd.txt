@@ -1,0 +1,9 @@
+\connect Juan22@dbcli.luiscastelar.duckdns.org:45682
+\sql
+show databases;
+
+\js
+util.dumpSchemas(["22_db_Juan"], "~/NOMBRE_DEL_DUMP.dump")
+\source ~/ARCHIVO.sql
+
+cron auto copia de seguridad

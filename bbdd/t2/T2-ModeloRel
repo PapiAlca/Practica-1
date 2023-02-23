@@ -1,0 +1,8 @@
+## Práctica del Tema 2 Modelo Relacional
+PROFESOR(DNI*, direccion, tlf, email, nss, antiguedad); \
+ALUMNO(DNI*, direccion, tlf, email); \
+Matriculacion(DNI_Alum* FK, codModulo FK);
+Ponen(DNI_Prof* FK, codModulo FK, DNI_Alum FK , notas, faltas, retrasos, evaluacion); \
+MODULO(Codigo*, codCurso FK, horas); \
+CURSO(Codigo*, codModulo FK); \
+CICLO(Codigo*, codGrupo FK); \
