@@ -2,9 +2,9 @@
 ## Prácticas:
 |     TO DO                        |   WORKIN IN                  |     CHECK     |              DONE              |    NOTA   |
 | -------------------------------- | ---------------------------- | ------------- | ------------------------------ | --------- |
-| P8-Evaluacion-de-Resultados      | P7-Carta                     | P3-JavaDoc    | Práctica 1                     | Corregida |
-| P8-Transmisor_de_datos           |                              |               | P2-HolaMundo                   |     5     |
-| P8-Calculadora_de_pila           |                              |               |                                |           |
+|                                  | P7-Carta                     | P3-JavaDoc    | Práctica 1                     | Corregida |
+|                                  | P8-Evaluacion-de-Resultados  |               | P2-HolaMundo                   |     5     |
+|                                  | P8-Transmisor_de_datos       |               |                                |           |
 |                                  |                              |               | P3-JavaBasicIO                 | En Espera |
 |                                  |                              |               | P4-POO                         | En Espera |
 |                                  |                              |               | P5-Estructuras_de_Control      | En Espera |
@@ -13,6 +13,7 @@
 |                                  |                              |               |                                |           |
 |                                  |                              |               |                                |           |
 |                                  |                              |               |                                |           |
+|                                  |                              |               | P8-Calculadora_de_pila         |           |
 ## Comentarios:
 Las prácticas que se ubican en **"DONE"** y de nota tienen **"En Espera"** son las prácticas terminadas que estan en espera a ser revisadas. Sí alguna práctica está mal ponla en el **"CHECK"**
 ## Examenes:
