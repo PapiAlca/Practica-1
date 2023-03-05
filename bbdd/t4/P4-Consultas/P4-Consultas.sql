@@ -24,7 +24,7 @@ select ' Por cada tienda:';	SELECT t.store_name, p.product_name, s.quantity FROM
 		WHERE s.quantity > 0
 		ORDER BY t.store_name, s.quantity DESC LIMIT 4;
 
-select ' Determina el dinero bloqueado en ese stock por empresa y en cada tienda:';	SELECT b.brand_name, p.product_name, SUM(oi.quantity * oi.list_price * oi.discount) AS blocked_money FROM products p
+select ' Determina el dinero bloqueado en ese stock por empresa y en cada tienda:';	SELECT b.brand_name, p.product_name, SUM(oi.quantity * oi.list_price) AS dinero_bloqueado FROM products p
 		INNER JOIN brands b ON p.brand_id = b.brand_id
 		INNER JOIN (
 			SELECT product_id, quantity FROM stocks
@@ -35,19 +35,11 @@ select ' Determina el dinero bloqueado en ese stock por empresa y en cada tienda
 		GROUP BY b.brand_name, p.product_name;
 
 select ' Y en todo el stock de la empresa por empresa y en cada tienda ordenados por los compradores del más gastoso al menos:';	
-SELECT c.first_name, c.last_name, SUM(order_items.quantity) AS total_comprado, 
-       brands.brand_name, t.store_name, 
-       SUM(order_items.quantity * (p.list_price - p.list_price * order_items.discount) * s.quantity) AS blocked_money
-	FROM orders o 
-		INNER JOIN customers c ON c.customer_id = o.customer_id
-		INNER JOIN order_items ON o.order_id = order_items.order_id
-		INNER JOIN products p ON order_items.product_id = p.product_id
-		INNER JOIN stocks s ON p.product_id = s.product_id
-		INNER JOIN stores t ON s.store_id = t.store_id
-		INNER JOIN brands ON p.brand_id = brands.brand_id
-		WHERE t.store_id = 1
-		GROUP BY brands.brand_name, t.store_name, c.customer_id
-		ORDER BY total_comprado DESC;
+	SELECT c.first_name, c.last_name, SUM(oi.list_price * oi.quantity) AS total_gastado FROM customers c
+		INNER JOIN orders o ON c.customer_id = o.customer_id
+		INNER JOIN order_items oi ON o.order_id = oi.order_id
+		GROUP BY c.customer_id
+		ORDER BY total_spent DESC;
 
 select ' Lista sólo los 10 más gastosos ordenados por compradores del que más productos ha comprado al que menos.';	SELECT c.first_name, c.last_name, SUM(order_items.list_price * order_items.discount) AS total_gastado FROM customers c
 		INNER JOIN orders o ON c.customer_id = o.customer_id
