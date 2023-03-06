@@ -1,6 +1,7 @@
 import java.io.*;
 import java.nio.*;
 import java.nio.file.Files;
+import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.util.*;
 
@@ -25,14 +26,15 @@ public class TrabajarArchivo {
 
     /** El método estático leerParametros nos parsea un archivo CSV y nos lo devuelve como un objeto de la clase Parametros
      *
-     * @param CSV archivo CSV con los campos String nombre, email, saldo y oferta
-     * @param i lee la fila i del archvivo
+     * @param file archivo CSV con los campos String nombre, email, saldo y oferta
+     * @param i será el número de líneas que tiene el archivo
+     *
      * @return Parametros. Objeto con 4 atributos String (nombre, email, saldo y oferta)
-     * */
-    static Parametros leerParametros(File file) throws IOException {
+     * @throws IOException
+     * * */
+    static Parametros leerParametros(File file, int i) throws IOException {
         BufferedReader reader = new BufferedReader(new FileReader(file));
         String linea;
-        int i = 10;
         int lineaCont = 0;
         while ((linea = reader.readLine()) != null) {
             lineaCont++;
@@ -50,7 +52,7 @@ public class TrabajarArchivo {
     /**
      * El método estático leerModulos nos parsea un archivo CSV y nos lo devuelve un array con el nombre de los módulos (primer campo vacío)
      *
-     * @param CSV archivo CSV con un campo vacío (o con "nombre") y un número indefinido de columnas con el nombre de cada módulo <String>
+     * @param file archivo CSV con un campo vacío (o con "nombre") y un número indefinido de columnas con el nombre de cada módulo <String>
      * @return String[].
      */
     static String[] leerModulos(File file) throws IOException {
@@ -72,7 +74,7 @@ public class TrabajarArchivo {
     /**
      * El método estático leerAlumno nos parsea un archivo CSV y nos lo devuelve un objeto de la clase Alumno
      *
-     * @param CSV archivo CSV con los campos String nombre y un número indefinido de columnas con las notas de cada módulo <float>
+     * @param file archivo CSV con los campos String nombre y un número indefinido de columnas con las notas de cada módulo <float>
      * @param i   lee la fila i del archvivo
      * @return Alumno. Objeto con 2 atributos nombre <String> y array notas <float>
      */
@@ -103,8 +105,23 @@ public class TrabajarArchivo {
      * @return String con el contenido
      */
     static String leerArchivo(File file) throws IOException {
-        String contenido = new String(Files.readAllBytes(Paths.get(file)));
-        return contenido;
+        try {
+            BufferedReader lector = new BufferedReader(new FileReader(file));
+            StringBuilder cadena = new StringBuilder();
+            String linea = null;
+
+            while ((linea = lector.readLine()) != null) {
+                cadena.append(linea);
+            }
+            lector.close();
+            String contenido = cadena.toString();
+            System.out.println(contenido);
+        } catch (FileNotFoundException e) {
+            e.printStackTrace();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        return null;
     }
 
     /** método stático escribeArchivo
