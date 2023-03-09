@@ -3,17 +3,17 @@
 |     TO DO                        |   WORKIN IN                  |     CHECK     |              DONE              |    NOTA   |
 | -------------------------------- | ---------------------------- | ------------- | ------------------------------ | --------- |
 |                                  | P7-Carta                     | P3-JavaDoc    | Práctica 1                     | Corregida |
-|                                  | P8-Evaluacion-de-Resultados  |               | P2-HolaMundo                   |     5     |
+|                                  |                              |               | P2-HolaMundo                   |     5     |
 |                                  | P8-Transmisor_de_datos       |               |                                |           |
 |                                  |                              |               | P3-JavaBasicIO                 | En Espera |
 |                                  |                              |               | P4-POO                         | En Espera |
 |                                  |                              |               | P5-Estructuras_de_Control      | En Espera |
-|                                  |                              |               | P6-Evaluacion_de_Resultados    | En Espera |
+|                                  |                              |               | P6-Evaluacion_de_Resultados    | Corregida |
 |                                  |                              |               | P6-Posicionamiento_BrazoRobot  | En Espera |
 |                                  |                              |               |                                |           |
 |                                  |                              |               |                                |           |
-|                                  |                              |               |                                |           |
-|                                  |                              |               | P8-Calculadora_de_pila         | En Espera |
+|                                  |                              |               | P8-Evaluacion-de-Resultados    | En Espera |
+|                                  |                              |               | P8-Calculadora_de_pila         | Corregida |
 ## Comentarios:
 Las prácticas que se ubican en **"DONE"** y de nota tienen **"En Espera"** son las prácticas terminadas que estan en espera a ser revisadas. Sí alguna práctica está mal ponla en el **"CHECK"**
 ## Examenes:
