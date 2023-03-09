@@ -15,5 +15,5 @@ y la de obtener el resto y que salga con colores por pantalla:
 + El resto lo conseguiremos con esta sentencia: resto = operador1 % operador2;
 + Y para finalizar y poner los colores utilizaremos esta ultima sentencia System.out.println(ANSI_AZUL+operador1+"/"+operador2+ "=" + modulo + ANSI_ROJO + " El resto del modulo es: " + resto);
 ### Y aquí el resultado de la práctica:
-![Imagen 2](/Programacion/P3-JavaBasic/img/captura1.png)
-![Imagen 2](/Programacion/P3-JavaBasic/img/captura2.png)
+![Imagen 2](/Programacion/P3-BasicIO/img/captura1.png)
+![Imagen 2](/Programacion/P3-BasicIO/img/captura2.png)
