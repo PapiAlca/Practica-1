@@ -5,7 +5,7 @@
 |                                  |                              | P7-Carta                     | Práctica 1                     | Corregida |
 |                                  |                              | P8-Transmisor_de_datos       | P2-HolaMundo                   |     5     |
 |                                  |                              |                              | P3-JavaDoc                     | Corregida |
-|                                  |                              |                              | P3-JavaBasicIO                 | En Espera |
+|                                  |                              |                              | P3-JavaBasicIO                 | Corregida |
 |                                  |                              |                              | P4-POO                         | En Espera |
 |                                  |                              |                              | P5-Estructuras_de_Control      | En Espera |
 |==================================|==============================|==============================|================================|===========|
