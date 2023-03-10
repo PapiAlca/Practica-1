@@ -1,8 +1,8 @@
 # Base de Datos:
 |     TO DO     |   WORKIN IN   |     CHECK     |     DONE                   |   NOTA    |
 | ------------- | ------------- | ------------- | -------------------------- | --------- |
-|               |  P4-Consultas | P3-Nomina     | Práctica 1                 |    10     |
-|               |               |               | P2-ModeloER                | En Espera |
+|               |               | P3-Nomina     | Práctica 1                 |    10     |
+|               |               | P4-Consultas  | P2-ModeloER                | En Espera |
 |               |               |               | P2-ModeloRelacional        |     6     |
 |               |               |               | P2-Normalizacion           |     6     |
 |               |               |               |                            |           |
