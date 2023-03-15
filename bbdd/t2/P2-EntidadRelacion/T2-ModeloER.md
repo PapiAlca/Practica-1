@@ -2,11 +2,10 @@
 ### Apartado 1
 #### En nuestro centro educativo nos centramos en las personas, ya sean alumnos, profesores u otras.
 Nos gusta conocer a todas las personas por su nombre y guardamos celosamente los datos de contacto (dirección, tlf, email y DNI).
-Así mismo, de nuestros alumnos almacenamos el nombre y teléfono de sus padres, y de los profesores su número de la seguridad social y antigüedad en el cargo.
+Así mismo, de nuestros alumnos almacenamos el nombre y teléfono de sus padres, y de los profesores su número de la seguridad social y antigüedad en el cargo. \
 ![Imagen 1:](/Base_de_Datos/img/ER1.png)
 ### Apartado 2
-#### Como somos un centro moderno permitimos la matriculación parcial por módulos de nuestros alumnos.
-Cada módulo tiene un código de curso y un número de horas.
+#### Como somos un centro moderno permitimos la matriculación parcial por módulos de nuestros alumnos. Cada módulo tiene un código de curso y un número de horas. \
 ![Imagen 2:](/Base_de_Datos/img/ER2.png)
 ### Apartado 3 
 #### Cada módulo será impartido por un profesor que será el encargado de hacer el seguimiento de faltas, retrasos y la evaluación de los progresos (nota) de cada alumno.
