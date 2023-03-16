@@ -6,7 +6,7 @@
 |           | P8-Transmisor_de_datos | P2-HolaMundo                  |     5     |
 |           |                        | P3-JavaDoc                    | Corregida |
 |           |                        | P3-JavaBasicIO                | Corregida |
-|           |                        | P4-POO                        | En Espera |
+|           |                        | P4-POO                        | Corregida |
 |           |                        | P5-Estructuras_de_Control     | En Espera |
 |===========|========================|===============================|===========|
 |           |                        | P6-Evaluacion_de_Resultados   | Corregida |
