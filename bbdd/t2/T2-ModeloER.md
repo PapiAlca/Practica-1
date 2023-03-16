@@ -4,7 +4,7 @@
 ![Imagen 1:](/bbdd/img/ER1.png)
 ### Apartado 2
 #### Como somos un centro moderno permitimos la matriculación parcial por módulos de nuestros alumnos. Cada módulo tiene un código de curso y un número de horas.
-![Imagen 2:](/bbdds/img/ER2.png)
+![Imagen 2:](/bbdd/img/ER2.png)
 ### Apartado 3 
 #### Cada módulo será impartido por un profesor que será el encargado de hacer el seguimiento de faltas, retrasos y la evaluación de los progresos (nota) de cada alumno.
 ![Imagen 3:](/bbdd/img/ER3.png)
