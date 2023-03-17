@@ -2,7 +2,7 @@
 |     TO DO     |   WORKIN IN   |     CHECK     |     DONE                   |   NOTA    |
 | ------------- | ------------- | ------------- | -------------------------- | --------- |
 |               |               | P3-Nomina     | Práctica 1                 |    10     |
-|               |               | P4-Consultas  | P2-ModeloER                | En Espera |
+|               |               | P4-Consultas  | P2-ModeloER                | Corregida |
 |               |               |               | P2-ModeloRelacional        |     6     |
 |               |               |               | P2-Normalizacion           |     6     |
 |               |               |               |                            |           |
