@@ -6,6 +6,7 @@
 |               |               |               | P2-ModeloRelacional        |     6     |
 |               |               |               | P2-Normalizacion           |     6     |
 |               |               |               | P3-Nomina                  | En espera |
+| ============= | ============= | ============= | ========================== | ========= |
 |               |               |               |                            |           |
 ## Comentarios:
 Las prácticas que se ubican en **"DONE"** y de nota tienen **"En Espera"** son las prácticas terminadas que estan en espera a ser revisadas. Sí alguna práctica está mal ponla en el **"CHECK"**
