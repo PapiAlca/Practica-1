@@ -1,13 +1,15 @@
 # Base de Datos:
 |     TO DO     |   WORKIN IN   |     CHECK     |     DONE                   |   NOTA    |
 | ------------- | ------------- | ------------- | -------------------------- | --------- |
-|               |               | P4-Consultas  | Práctica 1                 |    10     |
+|               |               |               | Práctica 1                 |    10     |
 |               |               |               | P2-ModeloER                | Corregida |
 |               |               |               | P2-ModeloRelacional        |     6     |
 |               |               |               | P2-Normalizacion           |     6     |
 |               |               |               | P3-Nomina                  | En espera |
 | ============= | ============= | ============= | ========================== | ========= |
-|               |               |               |                            |           |
+|               |               | P4-Consultas  |                            |           |
+| ============= | ============= | ============= | ========================== | ========= |
+| P6-Nomina     |               | 		|                            |           |
 ## Comentarios:
 Las prácticas que se ubican en **"DONE"** y de nota tienen **"En Espera"** son las prácticas terminadas que estan en espera a ser revisadas. Sí alguna práctica está mal ponla en el **"CHECK"**
 ## Examenes:
