@@ -2,8 +2,8 @@
 ## Prácticas:
 | WORKIN IN |         CHECK          |             DONE              |    NOTA   |
 | --------- | ---------------------- | ----------------------------- | --------- |
-|           | P7-Carta               | Práctica 1                    | Corregida |
-|           | P8-Transmisor_de_datos | P2-HolaMundo                  |     5     |
+|           |                        | Práctica 1                    | Corregida |
+|           |                        | P2-HolaMundo                  |     5     |
 |           |                        | P3-JavaDoc                    | Corregida |
 |           |                        | P3-JavaBasicIO                | Corregida |
 |           |                        | P4-POO                        | Corregida |
@@ -11,8 +11,8 @@
 |===========|========================|===============================|===========|
 |           |                        | P6-Evaluacion_de_Resultados   | Corregida |
 |           |                        | P6-Posicionamiento_BrazoRobot | En Espera |
-|           |                        |                               |           |
-|           |                        |                               |           |
+|           | P7-Carta               |                               |           |
+|           | P8-Transmisor_de_datos |                               |           |
 |           |                        | P8-Evaluacion-de-Resultados   | En Espera |
 |           |                        | P8-Calculadora_de_pila        | Corregida |
 ## Comentarios:
