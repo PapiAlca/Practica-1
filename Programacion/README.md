@@ -15,6 +15,7 @@
 |           | P8-Transmisor_de_datos |                               |           |
 |           |                        | P8-Evaluacion-de-Resultados   | En Espera |
 |           |                        | P8-Calculadora_de_pila        | Corregida |
+| ========= | ====================== | ============================= | ========= |
 ## Comentarios:
 Las prácticas que se ubican en **"DONE"** y de nota tienen **"En Espera"** son las prácticas terminadas que estan en espera a ser revisadas. Sí alguna práctica está mal ponla en el **"CHECK"**
 ## Examenes:
