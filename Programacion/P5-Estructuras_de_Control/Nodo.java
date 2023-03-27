@@ -1,26 +1,27 @@
 /*
-* Autor: Juan Parejo García
-* Clase Objeto Nodo
-*/
+ * Autor: Juan Parejo García
+ * Clase Objeto Nodo
+ */
+
 public class Nodo {
     int nodosHijos;
     Nodo[] hijos;
     int altura;
 
     public Nodo(String[] valores, int valor) {
-        this.nodosHijos = Integer.parseInt(valores[valor]);
+        nodosHijos = Integer.parseInt(valores[valor]);
 
         hijos = new Nodo[nodosHijos];
 
         for(int i=0; i<nodosHijos; i++) {
-            hijos[i] = new Nodo(valores, valor++);
+            hijos[i] = new Nodo(valores, valor+1);
             altura = Math.max(altura, hijos[i].getAltura());
             valor += hijos[i].getProfundidad();
         }
     }
 
     public int getAltura() {
-        return altura;
+        return altura + 1;
     }
 
     public int getProfundidad() {

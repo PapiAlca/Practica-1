@@ -16,6 +16,7 @@ public class Arbol {
 
         while(arboles!=0) {
             System.out.println("Inserta los valores de tu arbol: ");
+            sc.useDelimiter("\n");
             arbol = sc.next();
             arboles--;
 
