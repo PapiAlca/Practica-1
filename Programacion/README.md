@@ -7,13 +7,13 @@
 |           |                        | P3-JavaDoc                    | Corregida |
 |           |                        | P3-JavaBasicIO                | Corregida |
 |           |                        | P4-POO                        | Corregida |
-|           |                        | P5-Estructuras_de_Control     | En Espera |
+|           |                        | P5-Estructuras_de_Control     | Corregida |
 |===========|========================|===============================|===========|
 |           |                        | P6-Evaluacion_de_Resultados   | Corregida |
 |           |                        | P6-Posicionamiento_BrazoRobot | En Espera |
 |           | P7-Carta               |                               |           |
 |           | P8-Transmisor_de_datos |                               |           |
-|           |                        | P8-Evaluacion-de-Resultados   | En Espera |
+|           |                        | P8-Evaluacion-de-Resultados   | Corregida |
 |           |                        | P8-Calculadora_de_pila        | Corregida |
 |===========|========================|===============================|===========|
 ## Comentarios:
