@@ -16,6 +16,7 @@
 |           |                        | P8-Evaluacion-de-Resultados   | Corregida |
 |           |                        | P8-Calculadora_de_pila        | Corregida |
 |===========|========================|===============================|===========|
+|           |                        | P10-Serialización             | En Espera |
 ## Comentarios:
 Las prácticas que se ubican en **"DONE"** y de nota tienen **"En Espera"** son las prácticas terminadas que estan en espera a ser revisadas. Sí alguna práctica está mal ponla en el **"CHECK"**
 ## Examenes:
