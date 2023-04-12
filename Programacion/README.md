@@ -4,12 +4,12 @@ Cambiar el jdk de casa al **corretto-17 Amazon Corretto version 17.0**
 ## Prácticas:
 | WORKIN IN |         CHECK          |             DONE              |    NOTA   |
 | --------- | ---------------------- | ----------------------------- | --------- |
-|           |                        | Práctica 1                    | Corregida |
-|           |                        | P2-HolaMundo                  | Corregida |
-|           |                        | P3-JavaDoc                    | Corregida |
-|           |                        | P3-JavaBasicIO                | Corregida |
-|           |                        | P4-POO                        | Corregida |
-|           |                        | P5-Estructuras_de_Control     | Corregida |
+|           |                        | Práctica 1                    |     2     |
+|           |                        | P2-HolaMundo                  |     5     |
+|           |                        | P3-JavaDoc                    |     5     |
+|           |                        | P3-JavaBasicIO                |     5     |
+|           |                        | P4-POO                        |     5     |
+|           |                        | P5-Estructuras_de_Control     |     5     |
 | ========= | ====================== | ============================= | ========= |
 |           |                        | P6-Evaluacion_de_Resultados   | Corregida |
 |           |                        | P6-Posicionamiento_BrazoRobot | En Espera |
