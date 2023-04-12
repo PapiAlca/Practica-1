@@ -10,9 +10,9 @@ Cambiar el jdk de casa al * corretto-17 Amazon Corretto version 17.0 *
 |           |                        | P3-JavaBasicIO                | Corregida |
 |           |                        | P4-POO                        | Corregida |
 |           |                        | P5-Estructuras_de_Control     | Corregida |
-| ------------------------------------------------------------------------------ |
+| ============================================================================== |
 |                       ** 1ª Evaluación Aprobada **                             |
-| ------------------------------------------------------------------------------ |
+| ============================================================================== |
 |           |                        | P6-Evaluacion_de_Resultados   | Corregida |
 |           |                        | P6-Posicionamiento_BrazoRobot | En Espera |
 |           | P7-Carta               |                               |           |
