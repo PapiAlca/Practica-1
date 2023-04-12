@@ -11,12 +11,12 @@ Cambiar el jdk de casa al **corretto-17 Amazon Corretto version 17.0**
 |           |                        | P4-POO                        |     5     |
 |           |                        | P5-Estructuras_de_Control     |     5     |
 | ========= | ====================== | ============================= | ========= |
-|           |                        | P6-Evaluacion_de_Resultados   | Corregida |
+|           |                        | P6-Evaluacion_de_Resultados   |     9     |
 |           |                        | P6-Posicionamiento_BrazoRobot | En Espera |
 |           | P7-Carta               |                               |           |
 |           | P8-Transmisor_de_datos |                               |           |
 |           |                        | P8-Evaluacion-de-Resultados   | Corregida |
-|           |                        | P8-Calculadora_de_pila        | Corregida |
+|           |                        | P8-Calculadora_de_pila        |    10     |
 |===========|========================|===============================|===========|
 |           | P10-Serialización      |                               |     3     |
 ## Comentarios:
@@ -29,9 +29,14 @@ Las prácticas que se ubican en **"DONE"** y de nota tienen **"En Espera"** son 
 + Examen Tema 4: 6,75
 + Examen Tema 5: 0,5
 + **Examen Global: 8**
-+ **Nota Final: Suspenso por entregar tareas fuera de plazo.**
-+ **Nota ordinaria de la 1ª Evaluación: **
++ **Nota de la 1ª Evaluación: 4,5 **
 #### 2ª Evaluación:
 + Suspensa con un 2
 + **Nota ordinaria de la 1ª Evaluación: **
 #### 3ª Evaluación:
+
+#### Ordinaria Prácticas:
++ Prácticas entregadas: 76'9% 10/13 entregadas.
++ Prácticas no entregadas: 23,1% 3/13 por entregar.
++ Notas: 2, 5, 5, 5, 5, 5, 9, -, -, -, -, 10, 3...
++ Media = 5,4 (Sobre 9); 3,8 (Sobre 13)
