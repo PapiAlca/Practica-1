@@ -12,10 +12,10 @@ Cambiar el jdk de casa al **corretto-17 Amazon Corretto version 17.0**
 |           |                        | P5-Estructuras_de_Control     |     5     |
 | ========= | ====================== | ============================= | ========= |
 |           |                        | P6-Evaluacion_de_Resultados   |     9     |
-|           |                        | P6-Posicionamiento_BrazoRobot | En Espera |
+|           |                        | P6-Posicionamiento_BrazoRobot |     5     |
 |           | P7-Carta               |                               |           |
 |           | P8-Transmisor_de_datos |                               |           |
-|           |                        | P8-Evaluacion-de-Resultados   | Corregida |
+|           |                        | P8-Evaluacion-de-Resultados   | En espera |
 |           |                        | P8-Calculadora_de_pila        |    10     |
 |===========|========================|===============================|===========|
 |           | P10-Serialización      |                               |     3     |
