@@ -38,5 +38,5 @@ Las prácticas que se ubican en **"DONE"** y de nota tienen **"En Espera"** son 
 #### Ordinaria Prácticas:
 + Prácticas entregadas: 76'9% 10/13 entregadas.
 + Prácticas no entregadas: 23,1% 3/13 por entregar.
-+ Notas: 2, 5, 5, 5, 5, 5, 9, -, -, -, -, 10, 3...
-+ Media = 5,4 (Sobre 9); 3,8 (Sobre 13)
++ Notas: 2, 5, 5, 5, 5, 5, 9, 5, -, -, -, 10, 3...
++ Media = 5,4 (Sobre 10); 4,1 (Sobre 13)
