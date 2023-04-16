@@ -1,4 +1,4 @@
-Estimado señor $$nombre$$:
+Querido amigo $$nombre$$:
 Te escribimos porque tu email <$$email$$> ha salido premiado para recibir un oferta muy especial.
 Por cada $$saldo$$ euros que ingreses en nuestro sistema recibirás una oferta de un $$oferta$$ % de suplentento.
 No queremos entretenerte más $$nombre$$. Que pases un buen día.

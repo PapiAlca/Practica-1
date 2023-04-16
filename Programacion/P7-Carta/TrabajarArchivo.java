@@ -1,3 +1,8 @@
+/*
+ * Autor: Juan Parejo García
+ * Clase Objeto TrabajarArchivo
+ */
+
 import java.io.*;
 import java.nio.*;
 import java.nio.file.Files;
@@ -13,7 +18,7 @@ public class TrabajarArchivo {
      * @param file File que queremos contar el número de líneas
      * @return lineas. Entero con el número de líneas del archivo pasado (incluye el encabezado)
      * */
-     static int countLines(File file) throws IOException {
+    static int countLines(File file) throws IOException {
         BufferedReader reader = new BufferedReader(new FileReader(file));
         int lineaCont = 0;
         String linea;
