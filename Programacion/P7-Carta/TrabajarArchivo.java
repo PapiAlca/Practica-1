@@ -4,10 +4,6 @@
  */
 
 import java.io.*;
-import java.nio.*;
-import java.nio.file.Files;
-import java.nio.file.Path;
-import java.nio.file.Paths;
 import java.util.*;
 
 /**
@@ -37,21 +33,32 @@ public class TrabajarArchivo {
      * @return Parametros. Objeto con 4 atributos String (nombre, email, saldo y oferta)
      * @throws IOException
      * * */
-    static Parametros leerParametros(File file, int i) throws IOException {
-        BufferedReader reader = new BufferedReader(new FileReader(file));
-        String linea;
-        int lineaCont = 0;
-        while ((linea = reader.readLine()) != null) {
-            lineaCont++;
-            if (lineaCont == i) {
-                String[] campos = linea.split(",");
-                Parametros parametros = new Parametros(campos[0], campos[1], campos[2], campos[3]);
-                reader.close();
-                return parametros;
+
+    public static List<Parametros> cargarParametros(File file, int i) throws IOException {
+        List<Parametros> parametrosList = new ArrayList<>();
+        try (BufferedReader br = new BufferedReader(new FileReader(file))) {
+            String header = br.readLine();
+            String[] headerFields = header.split(",");
+            String line;
+            while ((line = br.readLine()) != null) {
+                String[] fields = line.split(",");
+                if (fields.length < headerFields.length) {
+                    System.out.println("La línea " + line + " no contiene suficientes valores.");
+                    continue;
+                }
+                String nombre = fields[0].trim();
+                String email = fields[1].trim();
+                String saldo = fields[2].trim();
+                String oferta = fields[3].trim();
+                Parametros parametros = new Parametros(nombre, email, saldo, oferta);
+                parametrosList.add(parametros);
             }
+            return parametrosList;
         }
-        reader.close();
-        return null;
+        catch (IOException e) {
+            e.printStackTrace();
+            return new ArrayList<>();
+        }
     }
 
     /** Método estático leerArchivo devuelve un String con el archivo completo
@@ -59,18 +66,18 @@ public class TrabajarArchivo {
      * @param file - File a leer
      * @return String con el contenido
      */
-    static String leerArchivo(File file) throws IOException {
+    static String cargarArchivo(File file) throws IOException {
         try {
             BufferedReader lector = new BufferedReader(new FileReader(file));
             StringBuilder cadena = new StringBuilder();
             String linea = null;
 
             while ((linea = lector.readLine()) != null) {
-                cadena.append(linea);
+                cadena.append(linea).append("\n");
             }
             lector.close();
             String contenido = cadena.toString();
-            System.out.println(contenido);
+            return contenido;
         } catch (FileNotFoundException e) {
             e.printStackTrace();
         } catch (IOException e) {
@@ -85,7 +92,7 @@ public class TrabajarArchivo {
      * @param nombreArchivo - String con el nombre del archivo
      * @return boolean si todo ok o no
      */
-    static boolean escribeArchivo(String texto, String nombreArchivo){
+    static boolean escribirArchivo(String texto, String nombreArchivo){
         try {
             BufferedWriter writer = new BufferedWriter(new FileWriter(nombreArchivo));
             writer.write(texto);

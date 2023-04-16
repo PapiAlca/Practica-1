@@ -24,5 +24,9 @@ public class Parametros {
     public String getOferta(){ return this.oferta; }
 
     @Override
-    public String toString(){ return nombre + " - " + email + " - " + saldo + " - " + oferta; }
+    public String toString(){
+        return "\n"
+                + "( " + nombre + " | " + email + " | " + saldo + " | " + oferta + " )" +
+            "\n";
+    }
 }
