@@ -19,7 +19,7 @@ Cambiar el jdk de casa al **corretto-17 Amazon Corretto version 17.0**
 |             |                        | P8-Calculadora_de_pila        |    10     |
 |=============|========================|===============================|===========|
 |             |                        | P10-Serialización             |     3     |
-| P11-ConnBDD |                        |                               |     3     |
+| P11-ConnBDD |                        |                               |     ?     |
 ## Comentarios:
 Las prácticas que se ubican en **"DONE"** y de nota tienen **"En Espera"** son las prácticas terminadas que estan en espera a ser revisadas. Sí alguna práctica está mal ponla en el **"CHECK"**
 ## Examenes:
