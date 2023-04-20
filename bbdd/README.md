@@ -2,14 +2,16 @@
 |     TO DO     |   WORKIN IN   |     CHECK     |     DONE                   |   NOTA    |
 | ------------- | ------------- | ------------- | -------------------------- | --------- |
 |               |               |               | Práctica 1                 |    10     |
-|               |               |               | P2-ModeloER                | Corregida |
+|               |               |               | P2-ModeloER                |     5     |
 |               |               |               | P2-ModeloRelacional        |     6     |
 |               |               |               | P2-Normalizacion           |     6     |
-|               |               |               | P3-Nomina                  | Corregida |
+|               |               |               | P3-Nomina                  |     5     |
 | ============= | ============= | ============= | ========================== | ========= |
 |               |               | P4-Consultas  |                            |           |
 | ============= | ============= | ============= | ========================== | ========= |
-|               |               | 		| P6-Nomina                  | En espera |
+|               |               | 		| P6-Nomina                  |     0     |
+|               | P7-PostgreSQL | 		| 	                     | En Espera |
+|               | P8-MongoDB    | 		| 	                     | En Espera |
 ## Comentarios:
 Las prácticas que se ubican en **"DONE"** y de nota tienen **"En Espera"** son las prácticas terminadas que estan en espera a ser revisadas. Sí alguna práctica está mal ponla en el **"CHECK"**
 ## Examenes:
@@ -33,3 +35,10 @@ Las prácticas que se ubican en **"DONE"** y de nota tienen **"En Espera"** son 
 + P2-Normalización En espera
 	+ Nota: 6
 	+ Máxima debido al retraso.
+
+### Ordinaria:
+Prácticas entregadas:    6/9  | 66'7%
+Prácticas no entregadas: 3/9  | 33'3%
+
+Notas: 10, 5, 6, 6, 5, -, 0, -, -...
+Medias: 5,33 (6/6) | 3,55
