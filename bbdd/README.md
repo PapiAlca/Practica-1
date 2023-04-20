@@ -41,4 +41,4 @@ Prácticas entregadas:    6/9  | 66'7%
 Prácticas no entregadas: 3/9  | 33'3%
 
 Notas: 10, 5, 6, 6, 5, -, 0, -, -...
-Medias: 5,33 (6/6) | 3,55
+Medias: 5,33 (6/6) | 3,55 (6/9)
