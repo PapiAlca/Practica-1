@@ -1,5 +1,4 @@
 # Programación:
-## IMPORTANTE:
 ## Prácticas:
 |  WORKIN IN  |         CHECK          |             DONE              |    NOTA   |
 | ----------- | ---------------------- | ----------------------------- | --------- |
