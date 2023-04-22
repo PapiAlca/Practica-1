@@ -1,6 +1,5 @@
 # Programación:
 ## IMPORTANTE:
-Cambiar el jdk de casa al **corretto-17 Amazon Corretto version 17.0**
 ## Prácticas:
 |  WORKIN IN  |         CHECK          |             DONE              |    NOTA   |
 | ----------- | ---------------------- | ----------------------------- | --------- |
