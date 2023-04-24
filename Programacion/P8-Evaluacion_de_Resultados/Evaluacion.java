@@ -5,73 +5,62 @@
 import java.util.*;
 
 public class Evaluacion {
-
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
+        // Mapas para las notas de los módulos
+        int sumaA;
+        Map<Integer, Float> notasBBDD = new HashMap<>();
+        Map<Integer, Float> notasProg = new HashMap<>();
+        Map<Integer, Float> notasSistemas = new HashMap<>();
+        List<Map<Integer, Float>> notasAsig = new ArrayList<>();
 
-        System.out.print("Introduce el número de alumnos: ");
-        int numAlumnos = sc.nextInt();
+        notasAsig.add(notasBBDD);
+        notasAsig.add(notasProg);
+        notasAsig.add(notasSistemas);
 
-        System.out.print("Introduce el número de módulos: ");
-        int numModulos = sc.nextInt();
+        sumaA = 0;
 
-        Map<Integer, Map<Integer, Integer>> notas = new HashMap<>();
+        Alumno n1, n2, n3;
+        int i;
 
-        // Pedimos las notas de cada alumno para cada módulo
-        for (int i = 1; i <= numAlumnos; i++) {
-            System.out.println("Alumno " + i + ":");
-            Map<Integer, Integer> notasAlumno = new HashMap<>();
-            for (int j = 1; j <= numModulos; j++) {
-                System.out.print("Nota del módulo " + j + ": ");
-                notasAlumno.put(j, sc.nextInt());
-            }
-            notas.put(i, notasAlumno);
-        }
+        n1 = new Alumno("Juan");
+        n2 = new Alumno("Rodrigo");
+        n3 = new Alumno("Julian");
+        Alumno[] alumnos = {n1, n2, n3};
 
-        // Calculamos la media de notas de cada alumno
-        double[] mediasAlumnos = new double[numAlumnos];
-        for (int i = 1; i <= numAlumnos; i++) {
-            Map<Integer, Integer> notasAlumno = notas.get(i);
-            int suma = 0;
-            for (int j = 1; j <= numModulos; j++) {
-                suma += notasAlumno.get(j);
-            }
-            mediasAlumnos[i - 1] = (double) suma / numModulos;
-        }
+        Random rnd = new Random();
 
-        // Calculamos la media de notas de cada módulo
-        double[] mediasModulos = new double[numModulos];
-        for (int j = 1; j <= numModulos; j++) {
-            int suma = 0;
-            for (int i = 1; i <= numAlumnos; i++) {
-                Map<Integer, Integer> notasAlumno = notas.get(i);
-                suma += notasAlumno.get(j);
-            }
-            mediasModulos[j - 1] = (double) suma / numAlumnos;
-        }
-
-        // Calculamos la media global
-        double sumaTotal = 0;
-        for (int i = 1; i <= numAlumnos; i++) {
-            Map<Integer, Integer> notasAlumno = notas.get(i);
-            for (int j = 1; j <= numModulos; j++) {
-                sumaTotal += notasAlumno.get(j);
+        //Método para conseguir la media Total de los módulos:
+        for(i=0; i< alumnos.length; i++) {
+            for (Map<Integer, Float> mapa : notasAsig) {
+                mapa.put(alumnos[i].getId(), (float) rnd.nextInt(11) -1);
             }
         }
-        double mediaGlobal = sumaTotal / (numAlumnos * numModulos);
-
-        // Mostramos los resultados
-        System.out.println("Media de notas por alumno:");
-        for (int i = 0; i < numAlumnos; i++) {
-            System.out.println("Alumno " + (i + 1) + ": " + mediasAlumnos[i]);
+        System.out.println("============================================================");
+        System.out.println("Notas de los estudiantes: ");
+        for(i=0; i<alumnos.length; i++) {
+            System.out.print(alumnos[i]);
         }
 
-        System.out.println("Media de notas por módulo:");
-        for (int j = 0; j < numModulos; j++) {
-            System.out.println("Módulo " + (j + 1) + ": " + mediasModulos[j]);
+        System.out.println("\n");
+        System.out.println(notasAsig);
+        System.out.println("============================================================");
+        System.out.println("Media de cada alumno");
+        for(i=0; i<alumnos.length; i++) {
+            System.out.println(AlumnosMetodos.getMediaAlumno(alumnos[i].getId(), notasAsig));
         }
 
-        System.out.println("Media global: " + mediaGlobal);
+        System.out.println("============================================================");
+        System.out.println("Media de cada módulo");
+        for(i=0; i<notasAsig.size(); i++) {
+            float valor = AlumnosMetodos.getMediaModulo(notasAsig.get(i));
+            System.out.println(valor);
+            sumaA += valor;
+        }
+
+        float mediaA = sumaA /((float) notasAsig.size());
+        System.out.println("============================================================");
+        System.out.println("Media general");
+        System.out.println(mediaA);
+        System.out.println("============================================================");
     }
-
 }
