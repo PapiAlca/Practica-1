@@ -10,7 +10,7 @@
 |               |               | P4-Consultas  |                            |           |
 | ============= | ============= | ============= | ========================== | ========= |
 |               |               | 		| P6-Nomina                  |     0     |
-|               |               | 		| P7-PostgreSQL              | En Espera |
+|               |               | 		| P7-PostgreSQL              |     0     |
 |               | P8-MongoDB    | 		| 	                     | En Espera |
 ## Comentarios:
 Las prácticas que se ubican en **"DONE"** y de nota tienen **"En Espera"** son las prácticas terminadas que estan en espera a ser revisadas. Sí alguna práctica está mal ponla en el **"CHECK"**
@@ -40,5 +40,5 @@ Las prácticas que se ubican en **"DONE"** y de nota tienen **"En Espera"** son 
 Prácticas entregadas:    7/9  | 77'8% \
 Prácticas no entregadas: 2/9  | 22'2% 
 
-Notas: 10, 5, 6, 6, 5, -, 0, -, -... \
+Notas: 10, 5, 6, 6, 5, -, 0, 0, -... \
 Medias: 5,33 (6/6) | 3,55 (6/9) 
