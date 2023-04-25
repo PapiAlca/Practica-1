@@ -37,8 +37,8 @@ Las prácticas que se ubican en **"DONE"** y de nota tienen **"En Espera"** son 
 	+ Máxima debido al retraso.
 
 ### Ordinaria:
-Prácticas entregadas:    7/9  | 77'8%
-Prácticas no entregadas: 2/9  | 22'2%
+Prácticas entregadas:    7/9  | 77'8% \
+Prácticas no entregadas: 2/9  | 22'2% \
 
-Notas: 10, 5, 6, 6, 5, -, 0, -, -...
-Medias: 5,33 (6/6) | 3,55 (6/9)
+Notas: 10, 5, 6, 6, 5, -, 0, -, -... \
+Medias: 5,33 (6/6) | 3,55 (6/9) \
