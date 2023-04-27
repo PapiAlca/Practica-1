@@ -1,4 +1,8 @@
 # Programación:
+## IMPORTANTE: 
+- En la práctica 8 Evaluacion de resultados mostrar la nota -1 o en su defecto espacios o una x.
+- Documentar Prácticas.
+- Instalar la Ultimate Version de IntellijIDEA y el JakartaEE.
 ## Prácticas:
 |  WORKIN IN  |         CHECK          |             DONE              |    NOTA   |
 | ----------- | ---------------------- | ----------------------------- | --------- |
@@ -12,12 +16,14 @@
 |             |                        | P6-Evaluacion_de_Resultados   |     9     |
 |             |                        | P6-Posicionamiento_BrazoRobot |     5     |
 |             |                        | P7-Carta                      |     5     |
-|             |                        | P8-Evaluacion-de-Resultados   | En espera |
-|             |                        | P8-Transmisor_de_datos        | En espera |
+|             |                        | P8-Evaluacion-de-Resultados   |     5     |
+|             |                        | P8-Transmisor_de_datos        |     5     |
 |             |                        | P8-Calculadora_de_pila        |    10     |
-|=============|========================|===============================|===========|
+| =========== | ====================== | ============================= | ========= |
 |             |                        | P10-Serialización             |     3     |
 | P11-ConnBDD |                        |                               |     ?     |
+|             |                        |                               |     ?     |
+
 ## Comentarios:
 Las prácticas que se ubican en **"DONE"** y de nota tienen **"En Espera"** son las prácticas terminadas que estan en espera a ser revisadas. Sí alguna práctica está mal ponla en el **"CHECK"**
 ## Examenes:
@@ -35,7 +41,7 @@ Las prácticas que se ubican en **"DONE"** y de nota tienen **"En Espera"** son 
 #### 3ª Evaluación:
 
 #### Ordinaria Prácticas:
-+ Prácticas entregadas: 84'6% 11/13 entregadas.
-+ Prácticas no entregadas: 14'4% 2/13 por entregar.
-+ Notas: 2, 5, 5, 5, 5, 5, 9, 5, 5, -, -, 10, 3...
-+ Media = 5,3 (Sobre 11); 4,5 (Sobre 13)
++ Prácticas entregadas: 100% 13/13 entregadas.
++ Prácticas no entregadas: 0% 0/13 por entregar.
++ Notas: 2, 5, 5, 5, 5, 5, 9, 5, 5, 5, 5, 10, 3...
++ Media = 5,3 (Sobre 13)
