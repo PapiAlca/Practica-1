@@ -11,11 +11,11 @@
 |               |               |               | P2-Normalizacion           |     6     |
 |               |               |               | P3-Nomina                  |     5     |
 | ============= | ============= | ============= | ========================== | ========= |
-|               |               | P4-Consultas  |                            |           |
+|               |               |               | P4-Consultas               |     ?     |
 | ============= | ============= | ============= | ========================== | ========= |
 |               |               | 		| P6-Nomina                  |     0     |
 |               |               | 		| P7-PostgreSQL              |     0     |
-|               | P8-MongoDB    | 		| 	                     | En Espera |
+|               | P8-MongoDB    | 		| 	                     |     ?     |
 ## Comentarios:
 Las prácticas que se ubican en **"DONE"** y de nota tienen **"En Espera"** son las prácticas terminadas que estan en espera a ser revisadas. Sí alguna práctica está mal ponla en el **"CHECK"**
 ## Examenes:
