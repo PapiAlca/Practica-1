@@ -2,7 +2,7 @@
 ## Importante:
 - Revisar práctica del tema 4 Consultas.
 - Hacer presentación del postgreSQL para el Martes 2 de Mayo.
-- Volver a hacer Práctica del tema 7 antes del domingo.
+- Volver a hacer Práctica del tema 7 antes del domingo y preguntar a Florín donde entregarla y a que hora.
 ## Prácticas:
 |     TO DO     |   WORKIN IN   |     CHECK     |     DONE                   |   NOTA    |
 | ------------- | ------------- | ------------- | -------------------------- | --------- |
