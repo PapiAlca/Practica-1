@@ -42,9 +42,9 @@ public class Alumno {
         for (String modulo : MODULOS) {
             Float nota = notas.getOrDefault(modulo, -1.0f);
             if (nota == -1.0) {
-                System.out.print(" ");
+                System.out.print(" XXX ");
             } else {
-                System.out.print(nota + "   ");
+                System.out.print(nota + "  ");
             }
         }
         System.out.print("| " + calcularMedia());
