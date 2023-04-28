@@ -1,7 +1,8 @@
 # Base de Datos:
 ## Importante:
 - Revisar práctica del tema 4 Consultas.
-- Hacer presentación del postgreSQL para el Martes 2 de Mayo
+- Hacer presentación del postgreSQL para el Martes 2 de Mayo.
+- Volver a hacer Práctica del tema 7 antes del domingo.
 ## Prácticas:
 |     TO DO     |   WORKIN IN   |     CHECK     |     DONE                   |   NOTA    |
 | ------------- | ------------- | ------------- | -------------------------- | --------- |
