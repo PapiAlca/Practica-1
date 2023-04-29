@@ -12,10 +12,10 @@
 |               |               |               | P2-Normalizacion           |     6     |
 |               |               |               | P3-Nomina                  |     5     |
 | ============= | ============= | ============= | ========================== | ========= |
-|               |               |               | P4-Consultas               |     ?     |
+|               |               |               | P4-Consultas               |     5     |
 | ============= | ============= | ============= | ========================== | ========= |
 |               |               | 		| P6-Nomina                  |     0     |
-|               |               | 		| P7-PostgreSQL              |     0     |
+|               |               | 		| P7-PostgreSQL              |     ?     |
 |               | P8-MongoDB    | 		| 	                     |     ?     |
 ## Comentarios:
 Las prácticas que se ubican en **"DONE"** y de nota tienen **"En Espera"** son las prácticas terminadas que estan en espera a ser revisadas. Sí alguna práctica está mal ponla en el **"CHECK"**
@@ -26,6 +26,7 @@ Las prácticas que se ubican en **"DONE"** y de nota tienen **"En Espera"** son 
 + Examen Tema 3 Diseño Físico: 8
 + **Examen Global: 5**
 + **Nota Final: Suspenso por entregar tareas fuera de plazo.**
++ ** APROBADA POR ENTREGAR TAREAS QUE FALTABAN **
 
 ### 2 Evaluación: 
 + Examen Tema 4:
@@ -45,5 +46,5 @@ Las prácticas que se ubican en **"DONE"** y de nota tienen **"En Espera"** son 
 Prácticas entregadas:    7/9  | 77'8% \
 Prácticas no entregadas: 2/9  | 22'2% 
 
-Notas: 10, 5, 6, 6, 5, -, 0, 0, -... \
-Medias: 5,33 (6/6) | 3,55 (6/9) 
+Notas: 10, 5, 6, 6, 5, 5, 0, ?, ?... \
+Medias: 5,28 (7/7) | 4,11 (7/9) 
