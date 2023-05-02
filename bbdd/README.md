@@ -46,5 +46,5 @@ Las prácticas que se ubican en **"DONE"** y de nota tienen **"En Espera"** son 
 Prácticas entregadas:    7/9  | 77'8% \
 Prácticas no entregadas: 2/9  | 22'2% 
 
-Notas: 10, 5, 6, 6, 5, 5, 0, ?, ?... \
+Notas: 10, 5, 6, 6, 5, 2, 0, ?, ?... \
 Medias: 5,28 (7/7) | 4,11 (7/9) 
