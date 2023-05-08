@@ -1,8 +1,6 @@
 # Programación:
 ## IMPORTANTE: 
-- En la práctica 8 Evaluacion de resultados mostrar la nota -1 o en su defecto espacios o una x.
-- Documentar Prácticas.
-- Instalar la Ultimate Version de IntellijIDEA y el JakartaEE.
+
 ## Prácticas:
 |  WORKIN IN  |         CHECK          |             DONE              |    NOTA   |
 | ----------- | ---------------------- | ----------------------------- | --------- |
