@@ -1,5 +1,6 @@
 # Programación:
 ## IMPORTANTE: 
+Página con info jsp: https://tc.luiscastelar.duckdns.org/jsp/
 
 ## Prácticas:
 |  WORKIN IN  |         CHECK          |             DONE              |    NOTA   |
