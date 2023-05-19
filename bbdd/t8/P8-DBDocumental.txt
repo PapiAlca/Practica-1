@@ -1,0 +1,1 @@
+Tabla Actor: -- > Tabla Participa < -- Tabla Pelicula [Objeto DVD] -- > Tabla Alquiler < -- Tabla Socio
