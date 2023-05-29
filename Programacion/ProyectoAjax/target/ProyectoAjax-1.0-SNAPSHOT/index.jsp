@@ -4,7 +4,7 @@
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <%!
     String titulo = "Calculadora de pila";
-    String servlet = "calculadora";
+    String servlet = "Calculadora";
 %>
 
 
@@ -37,6 +37,9 @@
 
             $('#calcular').click(function (event) {
                 let textoVar = $('#texto').val(); // capta contenido de id='texto'
+
+                console.log(textoVar.match(/[0-9] [0-9] .*/g))
+
                 $.get('<%= servlet %>', {
                     texto: textoVar
                 }, function (responseText) {
@@ -79,6 +82,5 @@
     <div style="border: 1px solid black; padding: 1em;">
         <div id="miPrimerServlet">Ir a mi primer servlet</div>
     </div>
-
 </body>
 </html>

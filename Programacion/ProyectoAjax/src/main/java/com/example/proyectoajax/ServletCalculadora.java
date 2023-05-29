@@ -29,8 +29,10 @@ public class ServletCalculadora extends HttpServlet {
 
         // Hello
         PrintWriter out = response.getWriter();
+        texto = request.getParameter("texto");
+        resultado = cal1.obtenerResultado(texto);
         out.print("<html><body>" +
-                mensaje +
+                resultado +
                 "</body></html>"
         );
     }
