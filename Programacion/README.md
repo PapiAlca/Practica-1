@@ -20,8 +20,8 @@ Página con info jsp: https://tc.luiscastelar.duckdns.org/jsp/
 |             |                        | P8-Calculadora_de_pila        |    10     |
 | =========== | ====================== | ============================= | ========= |
 |             |                        | P10-Serialización             |     3     |
-|             |                        | P11-JavaMySQL                 |     ?     |
-|             |                        |                               |     ?     |
+|             |                        | P11-JavaMySQL                 |     7     |
+|             |                        | P12-JakartaEE                 |     ?     |
 
 ## Comentarios:
 Las prácticas que se ubican en **"DONE"** y de nota tienen **"En Espera"** son las prácticas terminadas que estan en espera a ser revisadas. Sí alguna práctica está mal ponla en el **"CHECK"**
@@ -34,13 +34,13 @@ Las prácticas que se ubican en **"DONE"** y de nota tienen **"En Espera"** son 
 + Examen Tema 5: 0,5
 + **Examen Global: 8**
 + **Nota de la 1ª Evaluación: 4,5 **
-#### 2ª Evaluación:
+### 2ª Evaluación:
 + Suspensa con un 2
 + **Nota ordinaria de la 1ª Evaluación: **
-#### 3ª Evaluación:
+### 3ª Evaluación:
 
-#### Ordinaria Prácticas:
+### Ordinaria Prácticas:
 + Prácticas entregadas: 100% 13/13 entregadas.
 + Prácticas no entregadas: 0% 0/13 por entregar.
-+ Notas: 2, 5, 5, 5, 5, 5, 9, 5, 5, 5, 5, 10, 3...
-+ Media = 5,3 (Sobre 13)
++ Notas: 2, 5, 5, 5, 5, 5, 9, 5, 5, 5, 5, 10, 3, 7
++ Media = 5,4 (Sobre 14)
