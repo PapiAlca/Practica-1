@@ -16,7 +16,7 @@
 | ============= | ============= | ============= | ========================== | ========= |
 |               |               | 		| P6-Nomina                  |     0     |
 |               |               | 		| P7-PostgreSQL              |     0     |
-|               | P8-MongoDB    | 		| 	                     |     ?     |
+|               |               | 		| P8-MongoDB                 |    10     |
 ## Comentarios:
 Las prácticas que se ubican en **"DONE"** y de nota tienen **"En Espera"** son las prácticas terminadas que estan en espera a ser revisadas. Sí alguna práctica está mal ponla en el **"CHECK"**
 ## Examenes:
