@@ -179,7 +179,6 @@ CREATE TRIGGER avisoExtracto
 	END; $$
 DELIMITER ;	
 
--- Test del trigger:
 DELIMITER $$
 CREATE PROCEDURE testTrigger(cantidad INT, numeroCA INT)
 BEGIN
@@ -215,6 +214,7 @@ BEGIN
     END IF;
 END $$
 DELIMITER ;
+
 -- Eventos: ----------------------------------------------------------------------------------------------------------------------------------
 DELIMITER $$
 CREATE EVENT traspaso
