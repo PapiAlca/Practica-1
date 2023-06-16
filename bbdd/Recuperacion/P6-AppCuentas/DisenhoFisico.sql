@@ -2,6 +2,25 @@
 DROP DATABASE IF EXISTS cuentas;
 CREATE DATABASE IF NOT EXISTS cuentas;
 
+-- Creación de roles: ----------------------------------------
+
+CREATE ROLE cliente;
+GRANT EXECUTE ON procedimiento1 TO cliente;
+GRANT EXECUTE ON procedimiento2 TO cliente;
+GRANT EXECUTE ON procedimiento1 TO trabajador;
+GRANT EXECUTE ON procedimiento2 TO trabajador;
+GRANT EXECUTE ON procedimiento3 TO trabajador;
+GRANT EXECUTE ON procedimiento4 TO trabajador;
+GRANT EXECUTE ON procedimiento5 TO trabajador;
+GRANT EXECUTE ON procedimiento6 TO trabajador;
+
+
+CREATE ROLE trabajador;
+
+CREATE ROLE admin;
+GRANT ALL PRIVILEGES ON *.* TO admin;
+
+
 -- Creación de tablas: ---------------------------------------
 USE cuentas;
 CREATE TABLE persona(

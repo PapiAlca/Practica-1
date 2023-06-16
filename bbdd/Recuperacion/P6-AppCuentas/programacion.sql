@@ -1,4 +1,4 @@
--- Programación de la base de datos:
+-- Programación de la base de datos: Modificar transacciones y sacar toda la info por CONCAT
 
 -- Procedimientos del Cliente: -------------------------------------------------------------------------------------------------------------------------------------------
 DELIMITER $$
@@ -258,3 +258,13 @@ BEGIN
 		COMMIT;
 END $$
 DELIMITER ;
+
+-- Le damos derechos a los roles: ------------------------------------
+GRANT EXECUTE ON ingreso TO cliente;
+GRANT EXECUTE ON retirada TO cliente;
+
+GRANT EXECUTE ON altaCA TO trabajador;
+GRANT EXECUTE ON bajaCA TO trabajador;
+GRANT EXECUTE ON altaCC TO trabajador;
+GRANT EXECUTE ON bajaCC TO trabajador;
+GRANT EXECUTE ON contratoSeguro TO trabajador;
